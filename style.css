@@ -1,0 +1,38 @@
+:root {
+  --dark: #1a1a1a;
+  --light: #f1f0e2;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--dark);
+
+  overflow: hidden;
+}
+
+div {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: monospace;
+  font-size: xx-large;
+  font-weight: 800;
+
+  padding: 0.5rem;
+
+  border: none;
+  background-color: var(--light);
+}
+
+
